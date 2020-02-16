@@ -1,2 +1,0 @@
-# School21
-Days
