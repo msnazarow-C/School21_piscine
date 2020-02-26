@@ -1,0 +1,8 @@
+Credentials cache: API:11639
+        Principal: sgertrud@21-SCHOOL.RU
+
+  Issued                Expires               Principal
+Jan 28 13:30:52 2020  Jan 28 23:30:52 2020  krbtgt/21-SCHOOL.RU@21-SCHOOL.RU
+Jan 28 13:30:54 2020  Jan 28 23:30:52 2020  ldap/ldap-master.21-school.ru@21-SCHOOL.RU
+Jan 28 13:30:54 2020  Jan 28 23:30:52 2020  HTTP/storage-student.21-school.ru@21-SCHOOL.RU
+Jan 28 13:46:15 2020  Jan 28 23:30:52 2020  host/vogsphere.21-school.ru@21-SCHOOL.RU

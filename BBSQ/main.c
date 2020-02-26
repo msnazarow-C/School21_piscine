@@ -22,19 +22,13 @@ void	reading_string(int argc, char **argv, int f)
 		f = open(argv[i], O_RDONLY);
 		if (f == -1)
 		{
-			ft_puterror(argv[i]);
-			ft_puterror(": map error\n");
-			if (i != argc - 1)
-				write(2, "\n", 1);
+			ft_puterror("map error\n");
 		}
 		else if (make_tab(f))
 		{
-			ft_puterror(argv[i]);
-			ft_puterror(": map error\n");
-			if (i != argc - 1)
-				write(2, "\n", 1);
+			ft_puterror("map error\n");
 		}
-		else if (i != argc - 1)
+		if (i != argc - 1)
 			write(1, "\n", 1);
 		close(f);
 	}
@@ -43,11 +37,7 @@ void	reading_string(int argc, char **argv, int f)
 int		main(int argc, char **argv)
 {
 	int		f;
-	int		i;
-	clock_t	t;
 
-	t = clock();
-	i = 0;
 	if ((f = 0) || argc == 1)
 		if (make_tab(f))
 			ft_puterror("map error\n");
