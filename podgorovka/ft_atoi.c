@@ -34,6 +34,6 @@ int		ft_atoi(char *str)
 		i++;
 	}
 	if (flag)
-		out *= (0);
+		out *= -flag;
 	return (out);
 }
