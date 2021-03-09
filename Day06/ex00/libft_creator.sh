@@ -10,5 +10,6 @@
 #                                                                              #
 # **************************************************************************** #
 
-gcc -c *.c
-ar rc libft.a *.o
+gcc -Wall -Wextra -Werror -c ft*.c
+ar rc libft.a ft*.o
+ranlib libft.a
